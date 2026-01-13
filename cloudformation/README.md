@@ -187,20 +187,9 @@ This is heavily tested in DevOps Pro.
 
 ---
 
-## Terraform Next Step
-Once CloudFormation mastery is achieved:
-- Rebuild the same stack in Terraform
-- Compare:
-  - CFN Conditions vs Terraform expressions
-  - Outputs vs remote state
-  - Change sets vs `terraform plan`
-
----
 
 ## Final Takeaway
 This exercise successfully:
 - Exposed real CloudFormation pain points
 - Forced deep reading of official AWS docs
 - Built muscle memory for validation and debugging
-
-This is exactly the kind of struggle that **pays off massively** in the DevOps Engineer – Professional exam.
