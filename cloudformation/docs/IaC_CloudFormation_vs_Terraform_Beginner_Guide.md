@@ -1,5 +1,4 @@
-# iac-cloudformation-vs-terraform
-# Infrastructure as Code (IaC)
+# Infrastructure as Code (IaC) — Beginner-Friendly Summary
 
 ## What is Infrastructure as Code (IaC)?
 
@@ -145,3 +144,5 @@ CloudFormation:
 ## Final Takeaway
 - **CloudFormation = AWS‑native, strict, exam‑critical**
 - **Terraform = Flexible, powerful, industry‑wide**
+
+A strong DevOps engineer understands **both**.
