@@ -1,3 +1,5 @@
+# Terraform State File Explained
+
 ## What is the Terraform state file?
 The Terraform state file (`terraform.tfstate`) is a JSON file that acts as the **single source of truth** for your infrastructure.  
 It maps your Terraform configuration to **real-world AWS resources**.
@@ -10,7 +12,7 @@ Terraform uses the state file to:
 ---
 
 ## Where is it stored right now?
-Currently, the state file is stored **locally** on my machine, in the same directory as `main.tf`.
+Currently, the state file is stored **locally** on your machine, in the same directory as `main.tf`.
 
 This setup is called a **Local Backend**.
 
@@ -58,11 +60,11 @@ You must use a **Remote Backend with State Locking**.
 
 ## Example: Production-Ready Terraform Backend
 
-Add this block to  `main.tf`:
+Add this block to your `main.tf`:
 
 ```hcl
 terraform {
-   "s3" {
+  backend "s3" {
     bucket         = "my-company-terraform-state"
     key            = "dev/myapp.tfstate"
     region         = "us-east-1"

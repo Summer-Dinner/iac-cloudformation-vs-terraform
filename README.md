@@ -130,18 +130,6 @@ Terraform is **always drift-aware by default**.
 
 ---
 
-## 2026 Reality Check
-Terraform (and OpenTofu) has:
-- More providers
-- Strong Kubernetes support
-- Better multi‑cloud tooling
-
-CloudFormation:
-- Still dominates AWS‑only environments
-- Is heavily tested in AWS certification exams
-
----
-
 ## Final Takeaway
 - **CloudFormation = AWS‑native, strict, exam‑critical**
 - **Terraform = Flexible, powerful, industry‑wide**
